@@ -1,5 +1,6 @@
 import React from "react";
 import { useAuth0 } from "./react-auth0-spa";
+import ShowApps from './ShowApps';
 
 const Profile = () => {
   const { user, isAuthenticated, loading } = useAuth0();
@@ -18,7 +19,10 @@ const Profile = () => {
 
   return (
       <div>
-        <p><b>Welcome {user.name}!</b> You are logged in. </p>
+        <p><b>Welcome {user.name}!</b> Please review the apps below. </p>
+        <div>
+          <ShowApps />
+        </div>
       </div>
      )
 };

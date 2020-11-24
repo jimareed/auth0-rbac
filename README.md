@@ -16,6 +16,7 @@ Run
 ```
 export REACT_APP_DOMAIN=-- insert here --
 export REACT_APP_CLIENTID=-- insert here -- 
+export REACT_APP_AUDIENCE=-- insert here -- 
 npm start
 ```
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.

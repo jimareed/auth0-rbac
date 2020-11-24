@@ -14,7 +14,7 @@ const App = () => {
   return (
     <Container className="p-3">
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-      <Navbar.Brand href="#home">react-auth0-login</Navbar.Brand>
+      <Navbar.Brand href="#home">auth0-rbac</Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="justify-content-end" style={{ width: "100%" }}>
@@ -24,7 +24,7 @@ const App = () => {
       </Navbar.Collapse>
     </Navbar>
     <Jumbotron>
-      <p>Simple react app to login to Auth0.</p>
+      <p>Basic RBAC implimentation using React, Go and Auth0.</p>
       <Profile/>
     </Jumbotron>
   </Container>
