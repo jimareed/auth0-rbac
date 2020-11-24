@@ -1,5 +1,5 @@
 # auth0-rbac
-Simple RBAC example using Auth0 (under development)
+Basic RBAC implimentation using React, Go and Auth0. Also requires https://github.com/jimareed/auth0-rbac-backend. Based on https://github.com/jimareed/react-auth0-login, the samples from Auth0 and the Auth0 blog: https://auth0.com/blog/authentication-in-golang/.
 
 
 Config setup
