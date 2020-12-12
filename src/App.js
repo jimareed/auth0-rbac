@@ -24,7 +24,7 @@ const App = () => {
       </Navbar.Collapse>
     </Navbar>
     <Jumbotron>
-      <p>Basic RBAC implimentation using React, Go and Auth0.</p>
+      <p>Basic RBAC implementation using React, Go and Auth0.</p>
       <Profile/>
     </Jumbotron>
   </Container>
